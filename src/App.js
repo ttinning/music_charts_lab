@@ -1,8 +1,11 @@
 import './App.css';
+import MusicContainer from './containers/MusicContainer';
 
 function App() {
   return (
-    <h1>I AM AN APP</h1>
+    <>
+      <MusicContainer/>
+    </>
   );
 }
 
